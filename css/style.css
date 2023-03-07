@@ -22,6 +22,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: #080B12;
 }
 
 /*ASIDE*/
@@ -41,6 +42,7 @@ main {
   left:250px;
   top:100px;
   overflow: auto;
+  display: flex;
 }
 
 /*FOOTER*/
@@ -52,12 +54,28 @@ footer{
 }
 
 /*MEDIA QUERY*/
-@media screen and (max-width: 500px) {
-  header {
-    width: calc(100% - 80px);
-  }
+@media screen and (max-width:1200px){
+  
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+
+@media screen and (max-width:700px) {
+
+}
+
+@media screen and (max-width: 600px) {
 
   aside {
     width: 80px;
+  }
+
+  main{
+    width: 100%;
+    position: fixed;
+    left:80px;
   }
 }
