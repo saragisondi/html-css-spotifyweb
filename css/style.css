@@ -62,12 +62,31 @@ font-size: small;
 color: #616161
 }
 
+aside ul{
+  margin-bottom:10px;
+}
+
+aside ul li{
+  line-height: 1.7rem;
+}
+
+/*ASIDE TEXT*/
 aside .text ul li:first-child a{
-  color:#ECECEC
+  color:#ECECEC;
+}
+
+/*ASIDE PROFILE*/
+aside .profile{
+  position:fixed;
+  bottom:100px;
+}
+
+aside .profile div{
+  padding: 10px;
 }
 
 aside .profile div:first-child {
-  border-bottom: 1px solid #616161;
+  border-bottom:1px solid #616161;
 }
 
 aside .profile div:last-child a{
@@ -76,6 +95,7 @@ aside .profile div:last-child a{
   font-weight: 500;
 }
 
+/*ASIDE ICONS*/
 aside .fa-square-plus{
   font-size: 30px;
   color:#A3A3A3
