@@ -57,18 +57,37 @@ aside i{
   font-size: 20px;
 }
 
-aside .fa-square-plus{
-  font-size: 30px;
-  color:#A3A3A3
-}
-
 aside a{
 font-size: small;
 color: #616161
 }
 
-.text ul li:first-child a{
+aside .text ul li:first-child a{
   color:#ECECEC
+}
+
+aside .profile div:first-child {
+  border-bottom: 1px solid #616161;
+}
+
+aside .profile div:last-child a{
+  color: #ECECEC;
+  font-size: medium;
+  font-weight: 500;
+}
+
+aside .fa-square-plus{
+  font-size: 30px;
+  color:#A3A3A3
+}
+
+aside .fa-circle-arrow-down{
+  color:#ECECEC;
+  font-size: small;
+}
+
+aside .fa-circle-user{
+  color:#A3A3A3;
 }
 
 /*MAIN*/
