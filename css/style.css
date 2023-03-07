@@ -9,6 +9,18 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
 .debug{
   background-color: rgba(253, 0, 0, .2);
   border: 1px solid black;
@@ -22,7 +34,13 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #080B12;
+  display: flex;
+  justify-content: space-between;
+  background-color:#080B12 ;
+}
+
+header .logo{
+  width: 150px ;
 }
 
 /*ASIDE*/
@@ -32,6 +50,25 @@ aside {
   position: fixed;
   left: 0;
   top: 100px;
+  background-color:#000000;
+}
+
+aside i{
+  font-size: 20px;
+}
+
+aside .fa-square-plus{
+  font-size: 30px;
+  color:#A3A3A3
+}
+
+aside a{
+font-size: small;
+color: #616161
+}
+
+.text ul li:first-child a{
+  color:#ECECEC
 }
 
 /*MAIN*/
@@ -54,12 +91,19 @@ footer{
 }
 
 /*MEDIA QUERY*/
-@media screen and (max-width:1200px){
+@media screen and (max-width:1700px){
   
 }
 
 @media screen and (max-width:1200px){
 
+}
+
+@media screen and (min-width:700px) {
+
+  aside .icons{
+    display: none;
+  }
 }
 
 
@@ -71,6 +115,10 @@ footer{
 
   aside {
     width: 80px;
+  }
+
+  aside .text{
+    display: none;
   }
 
   main{
