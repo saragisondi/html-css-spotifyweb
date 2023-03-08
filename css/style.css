@@ -94,14 +94,16 @@ aside ul{
 }
 
 aside ul li{
-  line-height: 1.7rem;
+  line-height: 2rem;
   margin-left: 20px;
+  font-weight: 600;
 }
 
 /*ASIDE ICONS*/
 aside .fa-square-plus{
-  font-size: 30px;
-  color:#A3A3A3
+  font-size: 40px;
+  color:#A3A3A3;
+  vertical-align: bottom;
 }
 
 aside .fa-circle-arrow-down{
@@ -117,6 +119,13 @@ aside .fa-circle-user{
 aside .text ul li:first-child a{
   color:#ECECEC;
 }
+
+aside .text span{
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
 
 /*ASIDE PROFILE*/
 aside .profile{
