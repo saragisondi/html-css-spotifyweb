@@ -72,11 +72,12 @@ aside{
   height: 100%;
   flex-shrink: 0;
   background-color:#000000;
+
 }
 
 aside img{
   width: 70%;
-  margin: 15px 20px;
+margin: 20px 15px;
 }
 
 aside i{
@@ -94,6 +95,7 @@ aside ul{
 
 aside ul li{
   line-height: 1.7rem;
+  margin-left: 20px;
 }
 
 /*ASIDE ICONS*/
