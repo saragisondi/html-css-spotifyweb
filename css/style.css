@@ -189,6 +189,7 @@ aside .profile div:last-child a{
   justify-content: space-between;
 }
 
+/*PLAYER LEFT*/
 .player .img{
   width: 30%;
   object-fit: cover;
@@ -209,6 +210,16 @@ aside .profile div:last-child a{
   margin-left: 10px;
 }
 
+/*PLAYER CENTER*/
+
+/*PLAYER RIGHT*/
+.player .menu{
+  margin: 35px;
+}
+
+.player .menu i{
+  margin-left: 10px;
+}
 
 
 /*MEDIA QUERY*/
