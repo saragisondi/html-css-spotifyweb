@@ -54,7 +54,9 @@ main{
 
 .cta .btn{
   margin: 30px;
-  text-align: end;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .btn a{
