@@ -50,6 +50,7 @@ main{
   position: fixed;
   top: 0;
   right:0;
+  background-color:#080B12 ;
 }
 
 .cta .btn{
@@ -159,11 +160,12 @@ aside .profile div:last-child a{
 .content ul{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .content ul li a{
   color:#73767B;
-  margin: 15px;
+  margin:15px;
   
 }
 
