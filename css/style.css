@@ -21,6 +21,11 @@ li{
   list-style: none;
 }
 
+hr{
+  color: #5B5B5B;
+  background-color:#5B5B5B ;
+}
+
 .main-wrapper{
   height: 100vh;
 }
@@ -115,6 +120,7 @@ aside .fa-circle-user{
 }
 
 /*ASIDE TEXT*/
+
 aside .text ul li:first-child a{
   color:#ECECEC;
 }
@@ -127,9 +133,6 @@ aside .text span{
 
 
 /*ASIDE PROFILE*/
-aside .profile{
-
-}
 
 aside .profile div{
   padding: 10px;
@@ -227,6 +230,24 @@ aside .profile div:last-child a{
   margin-left: 10px;
 }
 
+.player .right .fa-minus{
+  font-size: 50px;
+}
+
+.bar{
+  background-color:#5B5B5B;
+  width:40%;
+  height: 8px;
+  display: flex;
+  margin: 50px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.fa-minus{
+  position: absolute;
+  bottom: -20px;
+}
 
 /*MEDIA QUERY*/
 @media screen and (max-width:1700px){
