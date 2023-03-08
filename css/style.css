@@ -28,9 +28,7 @@ li{
 
 /*DEBUG*/
 .debug{
-  background-color: rgba(253, 0, 0, .2);
-  border: 1px solid black;
-  min-height: 50px;
+  border: 1px solid white;
 }
 
 /*HEADER*/
@@ -166,13 +164,51 @@ aside .profile div:last-child a{
 .content ul li a{
   color:#73767B;
   margin:15px;
+  display: flex;
   
 }
 
 /*PLAYER*/
 .player{
-  height: 90px;
+  height: 125px;
+  background-color:#282828 ;
+  display: flex;
+  justify-content: space-between;
+  color: #8C8C8C;
+  font-weight: 500;
+  text-align: center;
 }
+
+.player .center{
+  width: 60%;
+}
+
+.player .left, .right{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player .img{
+  width: 30%;
+  object-fit: cover;
+}
+
+.player .song-name{
+  width: 50%;
+  text-align: left;
+  margin:35px;
+}
+
+.player .favourites{
+  width: 20%;
+  margin: 35px;
+}
+
+.player .favourites i{
+  margin-left: 10px;
+}
+
 
 
 /*MEDIA QUERY*/
