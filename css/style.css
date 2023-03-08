@@ -43,12 +43,7 @@ main{
   height: calc(100% - 90px);
 }
 
-aside{
-  width: 230px;
-  height: 100%;
-  flex-shrink: 0;
-}
-
+/*CTA*/
 .cta{
   width: calc(100% - 230px);
   height:90px;
@@ -57,7 +52,19 @@ aside{
   right:0;
 }
 
+/*ASIDE*/
+aside{
+  width: 230px;
+  height: 100%;
+  flex-shrink: 0;
+}
 
+aside img{
+  width: 70%;
+  margin: 15px 20px;
+}
+
+/*CONTENT*/
 .content{
   padding-top: 90px;
   width: 100%;
@@ -67,6 +74,7 @@ aside{
   overflow-y: auto;
 }
 
+/*PLAYER*/
 .player{
   height: 90px;
 }
