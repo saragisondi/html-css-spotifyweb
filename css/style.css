@@ -151,9 +151,20 @@ aside .profile div:last-child a{
   padding-top: 90px;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color:#141922;
   color: white;
   overflow-y: auto;
+}
+
+.content ul{
+  display: flex;
+  justify-content: center;
+}
+
+.content ul li a{
+  color:#73767B;
+  margin: 15px;
+  
 }
 
 /*PLAYER*/
