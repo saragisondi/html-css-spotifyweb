@@ -297,7 +297,6 @@ aside a i:hover{
 .player .img{
   width: 10%;
   margin:0 20px;
-
 }
 
 .player .song-name{
@@ -310,21 +309,18 @@ aside a i:hover{
   color:white;
 }
 
-.player .favourites{
-  width: 20%;
-}
-
 .player .favourites a{
   color: #8C8C8C;
+  margin-right: 10px;
 }
 
-/*ACTIVE PLAYER LEFT*/
-.favourites a:first-child:active{
-  color: red;
+/*PLAYER LEFT HOVER*/
+.player .song-name div:hover{
+  color: white;
 }
 
-.favourites a:last-child:active{
-  color: rgb(255, 193, 35);
+.player .favourites a:hover{
+  color: white;
 }
 
 /*PLAYER CENTER*/
@@ -384,7 +380,7 @@ position: relative;
 }
 
 .player .center .fa-circle-play:hover{
-  color:#ABFB2F;
+font-size: xx-large;
 }
 
 /*PLAYER RIGHT*/
