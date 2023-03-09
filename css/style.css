@@ -221,6 +221,24 @@ aside .profile div:last-child a{
 
 /*PLAYER CENTER*/
 
+/*TOP*/
+.player .top i{
+  align-items: center;
+  margin: 0 10px;
+  color: white;
+}
+
+.player .center .fa-shuffle, .fa-rotate-right{ 
+  font-size: 13px;
+}
+
+.player .center .fa-circle-play{
+  font-size: 23px;
+}
+
+/*BOTTOM*/
+
+
 
 
 /*PLAYER RIGHT*/
