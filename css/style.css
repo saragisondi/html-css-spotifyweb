@@ -189,20 +189,18 @@ aside .profile div:last-child a{
   margin: 50px 0;
 }
 
-.container-cards h2{
+.container-cards h2, h5{
   margin-left: 225px;
 }
 
-.container-cards h5{
-  margin-left: 225px;
+.container-cards h4{
+  margin-top: 10px;
 }
 
 .content .row-cards{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   width: 80%;
+  margin: 0 auto;
 }
 
 .content .card{
@@ -211,14 +209,21 @@ aside .profile div:last-child a{
   margin:0 20px;
 }
 
-
-
-
-
 /*ACTIVE CONTENT*/
 .content ul li a:active{
   border-bottom: 2px solid #ABFB2F;
 }
+
+/*RECENTLY PLAYER*/
+.recently-player .row-cards{
+  justify-content: center;
+  align-items: center;
+}
+
+.creato-per .row-cards{
+  
+}
+
 
 /*PLAYER*/
 .player{
