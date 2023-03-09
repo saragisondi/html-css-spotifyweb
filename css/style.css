@@ -83,6 +83,12 @@ aside .logo{
   margin: 20px 15px;
 }
 
+aside .logo-small{
+  width: 20%;
+  margin: 20px;
+}
+
+
 aside i{
   font-size: 20px;
 }
@@ -419,6 +425,10 @@ position: relative;
   aside .icons{
     display: none;
   }
+
+  aside .logo-small{
+    display: none;
+  }
 }
 
 
@@ -433,6 +443,10 @@ position: relative;
   }
 
   aside .text{
+    display: none;
+  }
+
+  aside .logo{
     display: none;
   }
 
