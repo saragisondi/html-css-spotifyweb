@@ -176,6 +176,11 @@ aside a:hover{
   color: white;
 }
 
+aside a i:hover{
+  color: white;
+}
+
+
 /*CONTENT*/
 .content{
   padding-top: 90px;
@@ -203,6 +208,15 @@ aside a:hover{
   line-height: 2rem;
 }
 
+.content ul li:first-child{
+  border-bottom: 2px solid #ABFB2F;
+}
+
+/*CONTENT HOVER*/
+.content li a:hover{
+  color: white;
+}
+
 /*CARDS*/
 .container-cards{
   margin: 50px 0;
@@ -228,10 +242,7 @@ aside a:hover{
   margin:0 20px;
 }
 
-/*ACTIVE CONTENT*/
-.content ul li a:active{
-  border-bottom: 2px solid #ABFB2F;
-}
+
 
 /*RECENTLY PLAYER*/
 .recently-player .row-cards{
@@ -274,7 +285,6 @@ aside a:hover{
 .player .left, .right{
   width: 30%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -286,7 +296,8 @@ aside a:hover{
 /*PLAYER LEFT*/
 .player .img{
   width: 10%;
-  margin-right:50px;
+  margin:0 20px;
+
 }
 
 .player .song-name{
