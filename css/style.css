@@ -523,6 +523,10 @@ font-size: xx-large;
     border-bottom:1px solid black;
   }
 
+  .player .center{
+    width: 50%;
+  }
+
 }
 
 
