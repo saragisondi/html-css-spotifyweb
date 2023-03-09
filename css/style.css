@@ -179,13 +179,25 @@ aside .profile div:last-child a{
   display: flex;
 }
 
-.content h6{
+.content h5, h6{
   color:#74777B ;
   line-height: 2rem;
 }
 
 /*CARDS*/
-.content .container-cards{
+.container-cards{
+  margin: 50px 0;
+}
+
+.container-cards h2{
+  margin-left: 225px;
+}
+
+.container-cards h5{
+  margin-left: 225px;
+}
+
+.content .row-cards{
   display: flex;
   justify-content: center;
   align-items: center;
