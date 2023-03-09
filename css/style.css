@@ -173,36 +173,42 @@ aside .profile div:last-child a{
 
 /*PLAYER*/
 .player{
-  height: 125px;
+  height: 90px;
   background-color:#282828 ;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #8C8C8C;
   font-weight: 500;
   text-align: center;
 }
 
 .player .center{
-  width: 60%;
+  width: 50%;
 }
 
 .player .left, .right{
   width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.player .bar{
+  background-color:#5D5D5D ;
+  border-radius: 50px;
 }
 
 /*PLAYER LEFT*/
 .player .img{
   width: 10%;
-  margin: 35px 20px;
-
+  margin-right:50px;
 }
 
 .player .song-name{
-  width: 50%;
+  width: 20%;
   text-align: left;
-  margin: 50px auto;
+  align-items: center;
 }
 
 .player .song-name h4{
@@ -211,43 +217,38 @@ aside .profile div:last-child a{
 
 .player .favourites{
   width: 20%;
-  margin: 50px;
-}
-
-.player .favourites i{
-  margin-left: 10px;
 }
 
 /*PLAYER CENTER*/
 
+
+
 /*PLAYER RIGHT*/
 .player .menu{
-  margin: 50px;
+  width: 60%;
   color: white;
+  display: flex;
 }
 
 .player .menu i{
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
-.player .right .fa-minus{
-  font-size: 50px;
-}
-
-.bar{
-  background-color:#5B5B5B;
-  width:40%;
-  height: 8px;
-  display: flex;
-  margin: 50px;
-  border-radius: 50px;
+.player .right .bar{
+  width: 40%;
+  height: 5px;
+  margin: 5px 20px;
   position: relative;
 }
 
-.fa-minus{
+.player .right .white.bar{
+  width: 40px;
+  background-color: white;
   position: absolute;
-  bottom: -20px;
+  top:-5px;
+  left:-20px;
 }
+
 
 /*MEDIA QUERY*/
 @media screen and (max-width:1700px){
