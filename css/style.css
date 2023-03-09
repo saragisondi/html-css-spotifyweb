@@ -76,12 +76,11 @@ aside{
   height: 100%;
   flex-shrink: 0;
   background-color:#000000;
-
 }
 
-aside img{
+aside .logo{
   width: 70%;
-margin: 20px 15px;
+  margin: 20px 15px;
 }
 
 aside i{
@@ -110,8 +109,18 @@ aside .fa-square-plus{
   vertical-align: bottom;
 }
 
+aside .icons img{
+  width: 10%;
+  vertical-align: middle;
+}
+
 
 /*ASIDE TEXT*/
+aside .text img{
+  width: 10%;
+  vertical-align: middle;
+}
+
 aside .text ul li:first-child a{
   color:#ECECEC;
 }
