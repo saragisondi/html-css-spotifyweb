@@ -30,16 +30,6 @@ hr{
   height: 100vh;
 }
 
-
-/*DEBUG*/
-.debug{
-  border: 1px solid white;
-}
-
-/*HEADER*/
-
-
-
 /*MAIN*/
 main{
   display: flex;
@@ -68,6 +58,11 @@ main{
   padding: 10px 30px;
   border-radius: 20px;
   color: #ECECEC;
+}
+
+/*BTN HOVER*/
+.cta .btn a:hover{
+  padding:15px 35px;
 }
 
 /*ASIDE*/
@@ -108,6 +103,10 @@ aside ul li{
   font-weight: 600;
 }
 
+aside .text ul:first-child li:first-child{
+  border-left: 2px solid#ABFB2F;
+}
+
 /*ASIDE ICONS*/
 aside .fa-square-plus{
   font-size: 40px;
@@ -119,7 +118,6 @@ aside .icons img{
   width: 10%;
   vertical-align: middle;
 }
-
 
 /*ASIDE TEXT*/
 aside .text img{
@@ -153,12 +151,6 @@ aside .bottom-img img{
   border-radius: 50%;
 }
 
-/*ACTIVE ASIDE*/
-aside .text ul li a:active{
-  border-left: 2px solid #ABFB2F;
-}
-
-
 /*ASIDE PROFILE*/
 aside .profile{
   position: fixed;
@@ -177,6 +169,11 @@ aside .profile div:last-child a{
   color: #ECECEC;
   font-size: medium;
   font-weight: 500;
+}
+
+/*ASIDE HOVER*/
+aside a:hover{
+  color: white;
 }
 
 /*CONTENT*/
