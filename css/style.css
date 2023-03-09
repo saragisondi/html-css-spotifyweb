@@ -110,17 +110,8 @@ aside .fa-square-plus{
   vertical-align: bottom;
 }
 
-aside .fa-circle-arrow-down{
-  color:#ECECEC;
-  font-size: small;
-}
-
-aside .fa-circle-user{
-  color:#A3A3A3;
-}
 
 /*ASIDE TEXT*/
-
 aside .text ul li:first-child a{
   color:#ECECEC;
 }
@@ -129,6 +120,22 @@ aside .text span{
   font-size: 15px;
   font-weight: 600;
   margin-left: 10px;
+}
+
+aside .text .top-img .gray {
+  color:#6C6C6C
+}
+
+aside .top-img img{
+  width: 30px;
+  vertical-align: middle;
+}
+
+aside .bottom-img img{
+  width:25%;
+  vertical-align: middle;
+  background-color:#808080 ;
+  border-radius: 50%;
 }
 
 /*ACTIVE ASIDE*/
@@ -200,7 +207,7 @@ aside .profile div:last-child a{
 .content .row-cards{
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .content .card{
@@ -218,12 +225,20 @@ aside .profile div:last-child a{
 .recently-player .row-cards{
   justify-content: center;
   align-items: center;
+  margin-top:5px;
 }
 
 .creato-per .row-cards{
-  
+  margin-top:5px;
 }
 
+.artisti-popolari .row-cards{
+  margin-top:5px;
+}
+
+.artisti-popolari .card.round img{
+  border-radius: 50%;
+}
 
 /*PLAYER*/
 .player{
