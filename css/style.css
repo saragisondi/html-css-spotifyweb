@@ -235,6 +235,19 @@ aside .profile div:last-child a{
   width: 20%;
 }
 
+.player .favourites a{
+  color: #8C8C8C;
+}
+
+/*ACTIVE PLAYER LEFT*/
+.favourites a:first-child:active{
+  color: red;
+}
+
+.favourites a:last-child:active{
+  color: rgb(255, 193, 35);
+}
+
 /*PLAYER CENTER*/
 
 /*TOP*/
@@ -256,6 +269,7 @@ aside .profile div:last-child a{
 .player .center .fa-circle-play{
   font-size: 30px;
   margin-top: 10px;
+  padding: 5px;
 }
 
 /*BOTTOM*/
@@ -285,9 +299,13 @@ position: relative;
   left:-20px;
 }
 
-/*HOVER PLAYER*/
+/*HOVER PLAYER CENTER*/
 .player .center .small.bar:hover{
   background-color:#ABFB2F;
+}
+
+.player .center .fa-circle-play:hover{
+  color:#ABFB2F;
 }
 
 /*PLAYER RIGHT*/
@@ -314,6 +332,11 @@ position: relative;
   position: absolute;
   top:-5px;
   left:-20px;
+}
+
+/*HOVER PLAYER RIGHT*/
+.player .right .small.bar:hover{
+  background-color:#ABFB2F;
 }
 
 
