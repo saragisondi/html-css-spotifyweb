@@ -78,12 +78,6 @@ aside .logo{
   margin: 20px 15px;
 }
 
-aside .logo-small{
-  width: 20%;
-  margin: 20px;
-}
-
-
 aside i{
   font-size: 20px;
 }
@@ -114,13 +108,7 @@ aside .fa-square-plus{
   vertical-align: bottom;
 }
 
-aside .icons img{
-  width: 10%;
-  vertical-align: middle;
-}
-
 /*ASIDE TEXT*/
-
 aside .text img{
   width: 10%;
   vertical-align: middle;
@@ -475,6 +463,11 @@ font-size: xx-large;
 
 
 @media screen and (max-width:700px) {
+
+  .content ul li a{
+    font-size: small;
+  }
+
   .favourites{
     flex-wrap:wrap ;
   }
@@ -485,21 +478,49 @@ font-size: xx-large;
     text-align: center;
   
 }
+  aside .icons{
+    display: none;
+  }
 
+  aside .logo-small{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
 
+.content ul li a{
+  font-size: small;
+}
+
   aside {
     width: 80px;
+  }
+
+  aside .icons{
+    display: block;
+  }
+
+  aside .icons img{
+    width: 40%;
   }
 
   aside .text{
     display: none;
   }
 
+  aside .logo-small{
+    display: block;
+    width: 40%;
+    margin: 20px
+  }
+
   aside .logo{
     display: none;
+  }
+
+  aside .profile div:first-child {
+    border-bottom:1px solid black;
   }
 
 }
