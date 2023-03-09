@@ -224,22 +224,50 @@ aside .profile div:last-child a{
 /*TOP*/
 .player .top i{
   align-items: center;
-  margin: 0 10px;
+  margin: 0 15px;
   color: white;
+  font-size: 20px;
 }
 
-.player .center .fa-shuffle, .fa-rotate-right{ 
-  font-size: 13px;
+.player .center .fa-shuffle{ 
+  font-size: 15px;
+}
+
+.player .center .fa-rotate-right{
+  font-size: 16px;
 }
 
 .player .center .fa-circle-play{
-  font-size: 23px;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 /*BOTTOM*/
+.player .bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.player .bottom div{
+  font-size: small;
+  font-weight: 600;
+  color: white;
+}
 
+.player .bottom .bar{
+width: 50%;
+height: 5px;
+margin: 5px 20px;
+position: relative;
+}
 
-
+.player .center .small.bar{
+  width: 100px;
+  background-color: #C6C6C6;
+  position: absolute;
+  top:-5px;
+  left:-20px;
+}
 
 /*PLAYER RIGHT*/
 .player .menu{
@@ -259,9 +287,9 @@ aside .profile div:last-child a{
   position: relative;
 }
 
-.player .right .white.bar{
+.player .right .small.bar{
   width: 40px;
-  background-color: white;
+  background-color: #C6C6C6;
   position: absolute;
   top:-5px;
   left:-20px;
