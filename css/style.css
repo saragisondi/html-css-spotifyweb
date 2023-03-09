@@ -181,20 +181,24 @@ aside .profile div:last-child a{
 
 .content h6{
   color:#74777B ;
+  line-height: 2rem;
 }
 
 /*CARDS*/
 .content .container-cards{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .content .card{
   width:calc(100% / 6) ;
+  text-align: center;
+  margin:0 20px;
 }
 
-.card img{
-  width: 50%;
-}
 
 
 
